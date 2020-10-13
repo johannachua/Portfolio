@@ -413,9 +413,10 @@ code {
   box-shadow: 5px 5px 10px rgba(103, 130, 155, 0.47); }
 
 .about-container {
-  margin-left: 16rem;
+  /* margin-left: 16rem;
   margin-right: 16rem;
-  margin-top: 3rem; }
+  margin-top: 3rem;  */
+}
 
 .about-container h2 {
   text-transform: uppercase; }
