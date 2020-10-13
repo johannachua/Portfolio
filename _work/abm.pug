@@ -1,0 +1,29 @@
+- var pageTitle = "abm"
+
+doctype html
+html(lang="en")
+  
+  include inc/head.pug
+
+  body
+    .nav-bar
+      nav
+        .main-nav
+          .main-nav-links
+            a(href="index.html" class="main-nav-item-img")
+              img(src="img/jc-logo1.png" alt="Johanna's Logo")
+            .nav-block
+              a(href="#contact" class="main-nav-item") CONTACT
+              a(href="index.html#work" class="main-nav-item") WORK
+              a(href="index.html#about" class="main-nav-item") ABOUT
+    
+    section#contact
+      nav.main-footer
+        .footer
+          a(href="styleguide.html" class="footer-item") style guide
+          a(href="citations.html" class="footer-item") citations
+          a(href="https://github.com/johannachua/IAT339-P03" class="footer-item") github
+          a(class="footer-item") johannac@sfu.ca
+        
+
+        
