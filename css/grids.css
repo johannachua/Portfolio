@@ -23,6 +23,11 @@
   display: block;
   clear: both; }
 
+.proj-header::after {
+  content: "";
+  display: block;
+  clear: both; }
+
 .flexbox .grid-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -93,13 +98,20 @@
     font-weight: lighter; }
   .about-container p {
     /*padding: 2.5rem;*/ }
-  p.about-me {
+  img.about-image {
+    margin: 0;
+    padding: 1em;
+  }
+  .about-me-text{
+    padding-left: 1em;
+  }
+  /* p.about-me {
     padding: 2.5rem;
     padding-bottom: 1rem; }
   p.about-me-link {
     padding: 2.5rem;
-    padding-top: 0; }
-  h4.abt-me-contact {
+    padding-top: 0; } */
+  /* h4.abt-me-contact {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     padding-top: 0; }
@@ -108,7 +120,7 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     padding-bottom: 1rem;
-    padding-top: 0; }
+    padding-top: 0; } */
   .proj-list {
     /*margin-left: 1rem;*/
     /* margin: 2.5rem; */
@@ -130,10 +142,12 @@
   .proj-analysis h2 {
     font-size: 1.2rem;
     font-weight: lighter; }
-
-  img.about-image {
-    width: 70%;
-    margin: auto; }
+  h2.proj-type {
+    font-weight: normal;
+  }
+  .proj-intro2{
+    padding-left: 0em;
+  }
   h3 {
     text-align: center;
     font-size: 1rem; }
@@ -188,6 +202,12 @@
     padding: 1rem;
     margin-right: 2rem;
   }
+  .about-container{
+    padding: 2em;
+  }
+  p.about-me {
+    padding-top: 1.7rem;
+  }
 }
 
 @media (min-width: 54em) {
@@ -196,10 +216,13 @@
   .main-nav-links {
     display: block; }
   img.about-image {
-    width: 65%;
-    margin: 0; }
+    width: 80%;
+  }
   .grid-col-1of2 {
     width: 50%; }
+  .about-me-text{
+    padding-left: 1.5em;
+  }
   p.about-me {
     padding: 0;
     padding-top: 1rem;
@@ -219,6 +242,10 @@
   h4.abt-me-contact{
     padding-left: 0rem;
   }
+  p.about-me {
+    padding: 0;
+    margin-right: 6rem;
+  }
   .abt-info{
     padding-left: 0rem;
   }
@@ -228,8 +255,11 @@
   .proj-text {
     margin-left: 3rem;
     margin-right: 3rem; }
-  .list2 {
-    margin-left: 3rem; }
+  /* .list2 {
+    margin-left: 3rem; } */
+  .proj-intro2{
+    padding-left: 3em;
+  }
   .process-text {
     margin-left: 8rem;
     margin-right: 8rem; }
@@ -247,8 +277,6 @@
   }
 
   img.about-image {
-    width: 50%;
-    margin: 0;
   }
   .item4 {
     margin-top: 0.5rem;
@@ -296,12 +324,10 @@
     text-align: center;
   }
   img.about-image {
-    width: 60%;
-    margin-left: 5rem; }
-  p.about-me {
-    padding: 0;
-    padding-top: 1.7rem;
-    margin-right: 6rem; }
+    width: 80%;
+    /* margin-left: 5rem;  */
+  }
+
   h4.abt-me-contact {
     padding-left: 0rem;
     padding-right: 0rem;
