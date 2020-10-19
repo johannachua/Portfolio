@@ -453,22 +453,23 @@ img.about-image{
 }
 
 .item1 img{
-  width: 40%;
+  margin-top: 2em;
 }
 
 .item2 img{
   width: 45%;
 }
 
-.item3 img{
-  margin-top: 2em;
-}
-
-.item4 img {
+.item5 img {
   width: 35.2%;
   margin-top: -1.5rem;
   margin-bottom: -1rem;
 }
+
+img.prj-img-LC{
+  width: 80%;
+}
+
 
 .main-footer {
   background: #1D151C;

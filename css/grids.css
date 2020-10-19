@@ -134,7 +134,8 @@
     width: 100%;
   }
   .proj-analysis {
-    padding: 2rem; }
+    padding: 2rem;
+  }
   .proj-analysis h1 {
     font-size: 1.8rem;
     letter-spacing: 0.2rem;
@@ -150,15 +151,19 @@
   }
   h3 {
     text-align: center;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
   .process {
     margin-top: 2rem;
-    text-align: center; }
+    text-align: center;
+  }
   img.app-static {
-    width: 70%; }
+    width: 70%;
+  }
   .image-figure {
     margin-right: 0;
-    margin-left: 0; }
+    margin-left: 0;
+  }
   .gif-img2 {
     text-align: center;
     margin-left: 0; }
@@ -354,7 +359,7 @@
   .item4 {
     margin-top: 0rem; }
   img.prj-img {
-    width: 72%; }
+    width: 100%; }
   h3 {
     text-align: left; }
   .proj-analysis h1 {
