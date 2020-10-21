@@ -25,7 +25,8 @@ h2 {
   margin: 1em 0;
   padding: 0.5em 0;
   color: #211435;
-  letter-spacing: 0.2rem; }
+  letter-spacing: 0.2rem; 
+}
 
 h1.styleguide-h1 {
   font-size: 2.8rem;
@@ -319,7 +320,9 @@ code {
 }
 
 .about-container h2 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .abt-me-contact{
   font-weight: bold;
