@@ -25,7 +25,7 @@ h2 {
   margin: 1em 0;
   padding: 0.5em 0;
   color: #211435;
-  letter-spacing: 0.2rem; 
+  letter-spacing: 0.2rem;
 }
 
 h1.styleguide-h1 {
@@ -540,6 +540,10 @@ img.prj-img-LC{
   padding-left: 3rem;
   padding-right: 3rem;
 }
+
+/* img.wireframe{
+  padding-left: 0;
+} */
 
 .proj-analysis .gif-img img {
   margin-top: -5rem; }
